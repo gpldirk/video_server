@@ -14,8 +14,8 @@ var (
 
 func init()  {
 	EndPoint = config.GetOSSAddr()
-	AccessKey = "LTAI4G8FyHb4n2trrZVwfwBU"
-	SecretKey = "O2J6LnFPZfKP1QsV3P5JUqQW10P8Pe"
+	AccessKey = ""
+	SecretKey = ""
 }
 
 func UploadToOSS(fileName, path, bucketName string) bool {
